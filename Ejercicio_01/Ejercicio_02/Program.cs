@@ -15,6 +15,7 @@ namespace Ejercicio_02
             long cuadrado;
             long cubo;
 
+            Console.Title = "Ejercicio Nro 02";
             Console.WriteLine("Ingrese un numero: ");
             numero = Console.ReadLine();
             num = int.Parse(numero);
