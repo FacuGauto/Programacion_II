@@ -11,25 +11,25 @@ namespace Ejercicio_04
         static void Main(string[] args)
         {
             int cantDePerfectos = 0;
-            int contador = 1;
+            int numero = 1;
             int suma = 0;
 
             while (cantDePerfectos < 4)
             {
-                for(int i = 1;i<contador;i++)
+                for(int i = 1;i<numero;i++)
                 {
-                    if(i%contador==0)
+                    if((numero%i)==0)
                     {
                         suma += i; 
                     }
                 }
-                if(suma==contador)
+                if(suma==numero)
                 {
                     cantDePerfectos++;
-                    Console.WriteLine("Numero perfecto: {0}", contador);
+                    Console.WriteLine("Numero perfecto: {0}", numero);
                 }
                 suma = 0;
-                contador++;
+                numero++;
             }
             Console.ReadKey();
         }

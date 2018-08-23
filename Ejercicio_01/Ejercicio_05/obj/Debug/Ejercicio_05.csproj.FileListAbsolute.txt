@@ -1,0 +1,7 @@
+D:\VisualStudio\Hoy\Programacion_II\Ejercicio_01\Ejercicio_05\bin\Debug\Ejercicio_05.exe.config
+D:\VisualStudio\Hoy\Programacion_II\Ejercicio_01\Ejercicio_05\bin\Debug\Ejercicio_05.exe
+D:\VisualStudio\Hoy\Programacion_II\Ejercicio_01\Ejercicio_05\bin\Debug\Ejercicio_05.pdb
+D:\VisualStudio\Hoy\Programacion_II\Ejercicio_01\Ejercicio_05\obj\Debug\Ejercicio_05.csprojAssemblyReference.cache
+D:\VisualStudio\Hoy\Programacion_II\Ejercicio_01\Ejercicio_05\obj\Debug\Ejercicio_05.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Hoy\Programacion_II\Ejercicio_01\Ejercicio_05\obj\Debug\Ejercicio_05.exe
+D:\VisualStudio\Hoy\Programacion_II\Ejercicio_01\Ejercicio_05\obj\Debug\Ejercicio_05.pdb
