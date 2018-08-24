@@ -10,7 +10,8 @@ namespace Ejercicio_07
     {
         static void Main(string[] args)
         {
-            int dia,mes,año,cantDiasVivivdos=0;
+            int dia, mes, año;
+            //int cantDiasVivivdos = 0;
             int añoActual,mesActual,diaActual;
             string diaL, mesL, añoL;
             DateTime hoy = DateTime.Now;
@@ -28,7 +29,7 @@ namespace Ejercicio_07
             Console.WriteLine("Ingrese su año de nacimiento: ");
             añoL = Console.ReadLine();
             año = int.Parse(añoL);
-
+            /*
             if(año == añoActual)
             {
 
@@ -37,7 +38,7 @@ namespace Ejercicio_07
             {
 
             }
-
+            */
         }
     }
 }
