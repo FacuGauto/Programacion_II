@@ -35,8 +35,9 @@ namespace Ejercicio_17
         {
             this.tinta = cantidadTintaMaxima;
         }
-        public Pintar(int tintaAPintar, out String gasto)
+        public void Pintar(int tintaAPintar, out String gasto)
         {
+            gasto = "*";
             if (this.tinta>0 &&tintaAPintar>0)
             {
                 while(this.tinta>0 && tintaAPintar>0)
