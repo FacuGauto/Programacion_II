@@ -45,5 +45,11 @@ namespace Billetes
             Pesos peso = new Pesos(d.Getcantidad() * Pesos.GetCotizacion());
             return peso;
         }
+
+        public static implicit operator Dolar(double d)
+        {
+            Dolar dolar = new Dolar(d);
+            return dolar;
+        }
     }
 }

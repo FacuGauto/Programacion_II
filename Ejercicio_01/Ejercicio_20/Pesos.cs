@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;   
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +13,7 @@ namespace Billetes
 
         private Pesos()
         {
-            Pesos.cotizRespectoDoloar = 0.5698F;
+            Pesos.cotizRespectoDoloar = 17.55F;
         }
 
         public Pesos(double cantidad)
@@ -35,5 +35,16 @@ namespace Billetes
             return Pesos.cotizRespectoDoloar;
         }
 
+        public static explicit operator Dolar(Pesos p)
+        {
+            Dolar dolar = new Dolar(p.Getcantidad() / Pesos.GetCotizacion());
+            return dolar;
+        }
+
+        public static explicit operator Euro(Pesos p)
+        {
+            Euro euro = new Euro(p.Getcantidad() / Pesos.GetCotizacion() * Euro.GetCotizacion());
+            return euro;
+        }
     }
 }
