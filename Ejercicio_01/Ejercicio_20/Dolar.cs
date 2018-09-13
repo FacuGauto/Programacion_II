@@ -36,7 +36,7 @@ namespace Billetes
         }
         public static explicit operator Euro(Dolar d)
         {
-            Euro euro = new Euro(d.Getcantidad() * Euro.GetCotizacion());
+            Euro euro = new Euro(d.Getcantidad() / Euro.GetCotizacion());
             return euro;
         }
 
