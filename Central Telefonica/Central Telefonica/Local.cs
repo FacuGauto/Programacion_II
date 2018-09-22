@@ -23,14 +23,14 @@ namespace Central_Telefonica
         {
             get
             {
-                return costo;
+                return this.CalcularCosto();
             }
         }
         public new string Mostrar()
         {
             StringBuilder mystringBuilder = new StringBuilder();
-            mystringBuilder.AppendFormat("{0}. ", base.Mostrar());
-            mystringBuilder.AppendFormat("{0}. ", this.CostoLlamada);
+            mystringBuilder.AppendFormat("{0}", base.Mostrar());
+            mystringBuilder.AppendFormat("El costo de la llamada es: {0}. ", this.CostoLlamada);
 
             return mystringBuilder.ToString();
         }
