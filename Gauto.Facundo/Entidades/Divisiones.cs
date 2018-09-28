@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    enum Divisiones { A,B,C,D,E};
+    public enum Divisiones { A,B,C,D,E};
 }

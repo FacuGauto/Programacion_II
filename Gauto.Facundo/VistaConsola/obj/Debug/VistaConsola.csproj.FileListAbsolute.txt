@@ -1,0 +1,10 @@
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\VistaConsola\bin\Debug\VistaConsola.exe.config
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\VistaConsola\bin\Debug\VistaConsola.exe
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\VistaConsola\bin\Debug\VistaConsola.pdb
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\VistaConsola\bin\Debug\Entidades.dll
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\VistaConsola\bin\Debug\Entidades.pdb
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\VistaConsola\obj\Debug\VistaConsola.csprojAssemblyReference.cache
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\VistaConsola\obj\Debug\VistaConsola.csproj.CoreCompileInputs.cache
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\VistaConsola\obj\Debug\VistaConsola.csproj.CopyComplete
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\VistaConsola\obj\Debug\VistaConsola.exe
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\VistaConsola\obj\Debug\VistaConsola.pdb

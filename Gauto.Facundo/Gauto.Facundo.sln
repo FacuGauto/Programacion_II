@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VistaConsola", "VistaConsola\VistaConsola.csproj", "{C269D63C-8414-45A6-99DD-8E8DD8113A49}"
+	ProjectSection(ProjectDependencies) = postProject
+		{291C51A3-B78F-4F9F-B1C0-DD850CF9EDA0} = {291C51A3-B78F-4F9F-B1C0-DD850CF9EDA0}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{291C51A3-B78F-4F9F-B1C0-DD850CF9EDA0}"
 EndProject

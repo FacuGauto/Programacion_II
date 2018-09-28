@@ -1,0 +1,6 @@
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\Entidades\bin\Debug\Entidades.dll
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\Entidades\bin\Debug\Entidades.pdb
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\Entidades\obj\Debug\Entidades.dll
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Gauto.Facundo\Entidades\obj\Debug\Entidades.pdb

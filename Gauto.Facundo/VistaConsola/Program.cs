@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entidades;
 
 namespace VistaConsola
 {
     class Program
     {
         static void Main(string[] args)
-        {/*
+        {
             // Genero un curso nuevo
             Curso curso = new Curso(2, Divisiones.A, new Profesor("Fede", "Dávila", "12345678", new
             DateTime(2015, 03, 20)));
@@ -28,7 +29,6 @@ namespace VistaConsola
             // Imprimo los datos del curso
             Console.WriteLine((string)curso);
             Console.ReadKey();
-            */
         }
     }
 }

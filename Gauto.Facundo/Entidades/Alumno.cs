@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Alumno: Persona
+    public class Alumno: Persona
     {
         private short anio;
         private Divisiones division;

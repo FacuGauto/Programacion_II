@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Profesor: Persona
+    public class Profesor: Persona
     {
         private DateTime fechaIngreso;
         
