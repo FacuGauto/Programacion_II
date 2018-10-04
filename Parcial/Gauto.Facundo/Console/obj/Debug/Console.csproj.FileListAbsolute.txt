@@ -1,0 +1,10 @@
+D:\Gauto.Facundo.PrimerParcial\Gauto.Facundo\Console\bin\Debug\Console.exe.config
+D:\Gauto.Facundo.PrimerParcial\Gauto.Facundo\Console\bin\Debug\Console.exe
+D:\Gauto.Facundo.PrimerParcial\Gauto.Facundo\Console\bin\Debug\Console.pdb
+D:\Gauto.Facundo.PrimerParcial\Gauto.Facundo\Console\bin\Debug\Entidades.dll
+D:\Gauto.Facundo.PrimerParcial\Gauto.Facundo\Console\bin\Debug\Entidades.pdb
+D:\Gauto.Facundo.PrimerParcial\Gauto.Facundo\Console\obj\Debug\Console.csprojAssemblyReference.cache
+D:\Gauto.Facundo.PrimerParcial\Gauto.Facundo\Console\obj\Debug\Console.csproj.CoreCompileInputs.cache
+D:\Gauto.Facundo.PrimerParcial\Gauto.Facundo\Console\obj\Debug\Console.csproj.CopyComplete
+D:\Gauto.Facundo.PrimerParcial\Gauto.Facundo\Console\obj\Debug\Console.exe
+D:\Gauto.Facundo.PrimerParcial\Gauto.Facundo\Console\obj\Debug\Console.pdb
