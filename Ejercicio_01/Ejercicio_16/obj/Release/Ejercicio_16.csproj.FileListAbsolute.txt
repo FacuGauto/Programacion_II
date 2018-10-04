@@ -1,0 +1,6 @@
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_16\bin\Release\Ejercicio_16.exe.config
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_16\bin\Release\Ejercicio_16.exe
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_16\bin\Release\Ejercicio_16.pdb
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_16\obj\Release\Ejercicio_16.csproj.CoreCompileInputs.cache
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_16\obj\Release\Ejercicio_16.exe
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_16\obj\Release\Ejercicio_16.pdb

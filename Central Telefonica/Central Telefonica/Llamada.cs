@@ -63,6 +63,6 @@ namespace Central_Telefonica
 
             return mystringBuilder.ToString();
         }
-        enum TipoLlamada {Local,Provincial,Todas};
+        public enum TipoLlamada {Local,Provincial,Todas};
     }
 }

@@ -1,0 +1,11 @@
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\bin\Release\netcoreapp2.0\Ejercicio_26.deps.json
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\bin\Release\netcoreapp2.0\Ejercicio_26.runtimeconfig.json
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\bin\Release\netcoreapp2.0\Ejercicio_26.runtimeconfig.dev.json
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\bin\Release\netcoreapp2.0\Ejercicio_26.dll
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\bin\Release\netcoreapp2.0\Ejercicio_26.pdb
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\obj\Release\netcoreapp2.0\Ejercicio_26.csprojAssemblyReference.cache
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\obj\Release\netcoreapp2.0\Ejercicio_26.csproj.CoreCompileInputs.cache
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\obj\Release\netcoreapp2.0\Ejercicio_26.AssemblyInfoInputs.cache
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\obj\Release\netcoreapp2.0\Ejercicio_26.AssemblyInfo.cs
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\obj\Release\netcoreapp2.0\Ejercicio_26.dll
+D:\AAAAA\Programacion_II\Ejercicio_01\Ejercicio_26\obj\Release\netcoreapp2.0\Ejercicio_26.pdb
