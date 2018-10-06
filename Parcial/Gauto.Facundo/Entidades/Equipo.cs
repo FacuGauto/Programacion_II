@@ -8,7 +8,7 @@ namespace Entidades
 {
     public class Equipo
     {
-        private int cantidadMaximaJugadores = 6;
+        private const int cantidadMaximaJugadores = 6;
         private DirectorTecnico directorTecnico;
         private List<Jugador> jugadores;
         private string nombre;
@@ -105,7 +105,7 @@ namespace Entidades
                     return e;
                 }
             }
-            if ((e.jugadores.Count < e.cantidadMaximaJugadores) && (j.ValidarAptitud() == true))
+            if ((e.jugadores.Count < cantidadMaximaJugadores) && (j.ValidarAptitud() == true))
             {
                 e.jugadores.Add(j);
             }
@@ -114,7 +114,7 @@ namespace Entidades
 
         public static bool ValidarEquipo(Equipo e)
         {
-            if (e.jugadores.Count < e.cantidadMaximaJugadores || e.directorTecnico is null)
+            if (e.jugadores.Count < cantidadMaximaJugadores || e.directorTecnico is null)
             {
                 return false;
             }
