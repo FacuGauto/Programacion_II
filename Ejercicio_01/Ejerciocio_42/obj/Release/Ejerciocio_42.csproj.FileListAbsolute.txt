@@ -1,0 +1,7 @@
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Programacion_II\Ejercicio_01\Ejerciocio_42\bin\Release\Ejerciocio_42.exe.config
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Programacion_II\Ejercicio_01\Ejerciocio_42\bin\Release\Ejerciocio_42.exe
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Programacion_II\Ejercicio_01\Ejerciocio_42\bin\Release\Ejerciocio_42.pdb
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Programacion_II\Ejercicio_01\Ejerciocio_42\obj\Release\Ejerciocio_42.csprojAssemblyReference.cache
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Programacion_II\Ejercicio_01\Ejerciocio_42\obj\Release\Ejerciocio_42.csproj.CoreCompileInputs.cache
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Programacion_II\Ejercicio_01\Ejerciocio_42\obj\Release\Ejerciocio_42.exe
+D:\AAAAAAAAAAAAAAAAAAAAAAA\Programacion_II\Programacion_II\Ejercicio_01\Ejerciocio_42\obj\Release\Ejerciocio_42.pdb
