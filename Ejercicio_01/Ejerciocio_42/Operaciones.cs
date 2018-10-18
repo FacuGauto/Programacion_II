@@ -6,20 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ejerciocio_42
 {
-    class Operaciones
+    class Operaciones : Exception
     {
-        public Operaciones(int num1,int num2)
+        public Operaciones(Exception e)
         {
-            try
-            {
-                division(num1, num2);
-            }
-            catch (DivideByZeroException e)
-            {
-                throw e;
-            }
+            throw new ExcepcionPropia("Error en contructor", e);
         }
-
 
         public static int division(int numeroUno, int numeroDos)
         {

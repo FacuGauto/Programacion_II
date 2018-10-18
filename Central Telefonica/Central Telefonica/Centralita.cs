@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Central_Telefonica
 {
-    class Centralita
+    public class Centralita
     {
         protected string razonSocial;
-        List<Llamada> listaDeLlamadas;
+        public List<Llamada> listaDeLlamadas;
 
         public Centralita()
         {
-            List<Llamada> listaDeLlamadas = new List<Llamada>();
+           this.listaDeLlamadas = new List<Llamada>();
         }
 
         public Centralita(string nombreEmpresa) :this()
@@ -21,35 +21,69 @@ namespace Central_Telefonica
             this.razonSocial = nombreEmpresa;
         }
 
-        /*public float GananciasPorLocal
+        public float GananciasPorLocal
         {
             get
             {
-                return;
+                return CalcularGanacia(Llamada.TipoLlamada.Local);
             }
-        }*/
+        }
+
+        public float GanaciasPorProvincial
+        {
+            get
+            {
+                return CalcularGanacia(Llamada.TipoLlamada.Provincial);
+            }
+        }
+
+        public float GanaciasPorTotal
+        {
+            get
+            {
+                return CalcularGanacia(Llamada.TipoLlamada.Todas);
+            }
+        }
 
         private float CalcularGanacia(Llamada.TipoLlamada tipo)
         {
             float retorno = 0;
+            
             for (int i = 0; i < listaDeLlamadas.Count; i++)
             {
-                switch (tipo)
+                if ((tipo == Llamada.TipoLlamada.Local || tipo == Llamada.TipoLlamada.Todas) && listaDeLlamadas[i] is Local)
                 {
-                    case Llamada.TipoLlamada.Local:
-                       // if (listaDeLlamadas[i] is Local)
-                            //Local auxlocal = new Local();
-                        //retorno += Local.
-                        break;
-                    case Llamada.TipoLlamada.Provincial:
-                        break;
-                    case Llamada.TipoLlamada.Todas:
-                        break;
-                    default:
-                        break;
+                    Local aux = (Local)listaDeLlamadas[i];
+                    retorno += aux.CostoLlamada; 
+                }
+                if ((tipo == Llamada.TipoLlamada.Provincial || tipo == Llamada.TipoLlamada.Todas) && listaDeLlamadas[i] is Provincial)
+                {
+                    Provincial aux = (Provincial)listaDeLlamadas[i];
+                    retorno += aux.CostoLlamada;
                 }
             }
             return retorno;
+        }
+
+        public string Mostrar()
+        {
+            StringBuilder mystringBuilder = new StringBuilder();
+            mystringBuilder.AppendFormat("Razon Social:{0}, Ganacia Local:{1}, Ganacia Provincial:{2}, Ganancia Total: {3}", this.razonSocial,this.GananciasPorLocal,this.GanaciasPorProvincial,this.GanaciasPorTotal);
+            foreach (Llamada llamada in listaDeLlamadas)
+            {
+                if (llamada is Local)
+                {
+                    Local aux = (Local)llamada;
+                    aux.Mostrar();
+                }
+                if (llamada is Provincial)
+                {
+                    Provincial aux = (Provincial)llamada;
+                    aux.Mostrar();
+                }
+            }
+
+            return mystringBuilder.ToString();
         }
     }
 }
