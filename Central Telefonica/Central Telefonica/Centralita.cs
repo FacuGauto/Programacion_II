@@ -74,15 +74,15 @@ namespace Central_Telefonica
                 if (llamada is Local)
                 {
                     Local aux = (Local)llamada;
-                    aux.Mostrar();
+                    mystringBuilder.AppendLine(aux.Mostrar());
                 }
                 if (llamada is Provincial)
                 {
                     Provincial aux = (Provincial)llamada;
-                    aux.Mostrar();
+                    mystringBuilder.AppendLine(aux.Mostrar());
                 }
             }
-
+            mystringBuilder.AppendLine("");
             return mystringBuilder.ToString();
         }
 
