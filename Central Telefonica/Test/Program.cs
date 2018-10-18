@@ -24,7 +24,7 @@ namespace Test
             Console.WriteLine(c.Mostrar());
             c.listaDeLlamadas.Add(l4);
             Console.WriteLine(c.Mostrar());
-           // c.OrdenarPorDuracion();
+            c.ordenarLlamada();
             Console.WriteLine(c.Mostrar());
             Console.ReadKey();
         }

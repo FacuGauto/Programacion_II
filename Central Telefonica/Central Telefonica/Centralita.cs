@@ -85,5 +85,10 @@ namespace Central_Telefonica
 
             return mystringBuilder.ToString();
         }
+
+        public void ordenarLlamada()
+        {
+            this.listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
+        }
     }
 }
