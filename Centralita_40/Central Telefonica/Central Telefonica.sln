@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaHerencia", "Central Telefonica\CentralitaHerencia.csproj", "{F6DD90E4-F299-4A99-B0A6-73F8B3974F5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{6CE4B607-3BA6-4430-83D4-C0B53F6E986A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{6CE4B607-3BA6-4430-83D4-C0B53F6E986A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centralita", "Centralita\Centralita.csproj", "{3D466501-672C-461C-ADF9-886DCACF345A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6CE4B607-3BA6-4430-83D4-C0B53F6E986A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CE4B607-3BA6-4430-83D4-C0B53F6E986A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CE4B607-3BA6-4430-83D4-C0B53F6E986A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D466501-672C-461C-ADF9-886DCACF345A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D466501-672C-461C-ADF9-886DCACF345A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D466501-672C-461C-ADF9-886DCACF345A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D466501-672C-461C-ADF9-886DCACF345A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
