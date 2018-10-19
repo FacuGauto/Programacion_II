@@ -5,3 +5,10 @@ D:\aaa\Programacion_II\Central Telefonica\Central Telefonica\obj\Debug\Centralit
 D:\aaa\Programacion_II\Central Telefonica\Central Telefonica\obj\Debug\CentralitaHerencia.csproj.CoreCompileInputs.cache
 D:\aaa\Programacion_II\Central Telefonica\Central Telefonica\obj\Debug\Central Telefonica.exe
 D:\aaa\Programacion_II\Central Telefonica\Central Telefonica\obj\Debug\Central Telefonica.pdb
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Central Telefonica\obj\Debug\CentralitaHerencia.csprojAssemblyReference.cache
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Central Telefonica\obj\Debug\CentralitaHerencia.csproj.CoreCompileInputs.cache
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Central Telefonica\obj\Debug\Central Telefonica.exe
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Central Telefonica\obj\Debug\Central Telefonica.pdb
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Central Telefonica\bin\Debug\Central Telefonica.exe.config
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Central Telefonica\bin\Debug\Central Telefonica.exe
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Central Telefonica\bin\Debug\Central Telefonica.pdb

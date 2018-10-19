@@ -19,7 +19,7 @@ namespace Central_Telefonica
             this.costo = costo;
         }
 
-        public float CostoLlamada
+        public override float CostoLLamada
         {
             get
             {
@@ -30,7 +30,9 @@ namespace Central_Telefonica
         {
             StringBuilder mystringBuilder = new StringBuilder();
             mystringBuilder.AppendFormat("{0}", base.Mostrar());
-            mystringBuilder.AppendFormat("El costo de la llamada es: {0}. ", this.CostoLlamada);
+            mystringBuilder.AppendLine("");
+            mystringBuilder.AppendFormat("El costo de la llamada es: {0}. ", this.CostoLLamada);
+            mystringBuilder.AppendLine("");
 
             return mystringBuilder.ToString();
         }

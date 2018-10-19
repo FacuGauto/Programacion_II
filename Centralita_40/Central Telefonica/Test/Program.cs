@@ -16,14 +16,10 @@ namespace Test
             Provincial l4 = new Provincial(Provincial.Franja.Franja_3, l2);
             // Las llamadas se irán registrando en la Centralita.
             // La centralita mostrará por pantalla todas las llamadas según las vaya registrando.
-            c.listaDeLlamadas.Add(l1);
-            Console.WriteLine(c.Mostrar());
-            c.listaDeLlamadas.Add(l2);
-            Console.WriteLine(c.Mostrar());
-            c.listaDeLlamadas.Add(l3);
-            Console.WriteLine(c.Mostrar());
-            c.listaDeLlamadas.Add(l4);
-            Console.WriteLine(c.Mostrar());
+            c += l1;            
+            c += l2;            
+            c += l3;            
+            c += l4;            
             c.ordenarLlamada();
             Console.WriteLine(c.Mostrar());
             Console.ReadKey();

@@ -10,7 +10,7 @@ namespace Central_Telefonica
     {
         protected Franja franjaHoraria;
 
-        public float CostoLlamada
+        public override float CostoLLamada
         {
             get
             {
@@ -30,7 +30,9 @@ namespace Central_Telefonica
         {
             StringBuilder myStringBuilder = new StringBuilder();
             myStringBuilder.AppendFormat("{0}", base.Mostrar());
-            myStringBuilder.AppendFormat("El costo de la llamada es:{0} .", this.CostoLlamada);
+            myStringBuilder.AppendLine("");
+            myStringBuilder.AppendFormat("El costo de la llamada es:{0} .", this.CostoLLamada);
+            myStringBuilder.AppendLine("");
             myStringBuilder.AppendFormat("La franja horaria es:{0} .", this.franjaHoraria);
 
             return myStringBuilder.ToString();

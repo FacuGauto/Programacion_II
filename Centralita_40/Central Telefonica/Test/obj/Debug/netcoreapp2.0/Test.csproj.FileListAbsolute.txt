@@ -13,3 +13,18 @@ D:\aaa\Programacion_II\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Central T
 D:\aaa\Programacion_II\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Central Telefonica.pdb
 D:\aaa\Programacion_II\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Central Telefonica.exe.config
 D:\aaa\Programacion_II\Central Telefonica\Test\obj\Debug\netcoreapp2.0\Test.csproj.CopyComplete
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\obj\Debug\netcoreapp2.0\Test.csprojAssemblyReference.cache
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\obj\Debug\netcoreapp2.0\Test.csproj.CoreCompileInputs.cache
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfoInputs.cache
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\obj\Debug\netcoreapp2.0\Test.AssemblyInfo.cs
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\obj\Debug\netcoreapp2.0\Test.dll
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\obj\Debug\netcoreapp2.0\Test.pdb
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Test.deps.json
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Test.runtimeconfig.json
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Test.runtimeconfig.dev.json
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Test.dll
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Test.pdb
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Central Telefonica.exe
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Central Telefonica.pdb
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\bin\Debug\netcoreapp2.0\Central Telefonica.exe.config
+D:\aaa\Programacion_II\Centralita_40\Central Telefonica\Test\obj\Debug\netcoreapp2.0\Test.csproj.CopyComplete

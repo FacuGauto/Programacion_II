@@ -54,12 +54,12 @@ namespace Central_Telefonica
                 if ((tipo == Llamada.TipoLlamada.Local || tipo == Llamada.TipoLlamada.Todas) && listaDeLlamadas[i] is Local)
                 {
                     Local aux = (Local)listaDeLlamadas[i];
-                    retorno += aux.CostoLlamada; 
+                    retorno += aux.CostoLLamada; 
                 }
                 if ((tipo == Llamada.TipoLlamada.Provincial || tipo == Llamada.TipoLlamada.Todas) && listaDeLlamadas[i] is Provincial)
                 {
                     Provincial aux = (Provincial)listaDeLlamadas[i];
-                    retorno += aux.CostoLlamada;
+                    retorno += aux.CostoLLamada;
                 }
             }
             return retorno;
