@@ -43,7 +43,7 @@ namespace Central_Telefonica
 
         public override bool Equals(object obj)
         {
-            if(obj is Local && this is Local)
+            if(obj is Local)
             return true;
 
             return false;
