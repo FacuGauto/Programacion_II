@@ -690,11 +690,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\aaa\\Programacion_II\\Centralita_40\\Central Telefonica\\Test\\Test.csproj",
+      "projectUniqueName": "D:\\AAA\\Programacion_II\\Centralita_40\\Central Telefonica\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "D:\\aaa\\Programacion_II\\Centralita_40\\Central Telefonica\\Test\\Test.csproj",
+      "projectPath": "D:\\AAA\\Programacion_II\\Centralita_40\\Central Telefonica\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "D:\\aaa\\Programacion_II\\Centralita_40\\Central Telefonica\\Test\\obj\\",
+      "outputPath": "D:\\AAA\\Programacion_II\\Centralita_40\\Central Telefonica\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -710,8 +710,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\aaa\\Programacion_II\\Centralita_40\\Central Telefonica\\Central Telefonica\\CentralitaHerencia.csproj": {
-              "projectPath": "D:\\aaa\\Programacion_II\\Centralita_40\\Central Telefonica\\Central Telefonica\\CentralitaHerencia.csproj"
+            "D:\\AAA\\Programacion_II\\Centralita_40\\Central Telefonica\\Central Telefonica\\CentralitaHerencia.csproj": {
+              "projectPath": "D:\\AAA\\Programacion_II\\Centralita_40\\Central Telefonica\\Central Telefonica\\CentralitaHerencia.csproj"
             }
           }
         }

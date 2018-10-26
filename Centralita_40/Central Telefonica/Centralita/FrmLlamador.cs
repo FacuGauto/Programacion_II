@@ -16,5 +16,10 @@ namespace Centralita
         {
             InitializeComponent();
         }
+
+        private void FrmLlamador_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
