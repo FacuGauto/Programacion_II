@@ -1,0 +1,14 @@
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\bin\Debug\Test.exe.config
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\bin\Debug\Test.exe
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\bin\Debug\Test.pdb
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\bin\Debug\Entidades.dll
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\bin\Debug\Entidades.pdb
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\obj\Debug\Test.FrmLector.resources
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\obj\Debug\Test.Properties.Resources.resources
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\obj\Debug\Test.exe
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP\Test\obj\Debug\Test.pdb
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP - alumno\Test\bin\Debug\Test.exe.config
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP - alumno\Test\obj\Debug\Test.exe
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20171026-RPP - alumno\Test\obj\Debug\Test.pdb

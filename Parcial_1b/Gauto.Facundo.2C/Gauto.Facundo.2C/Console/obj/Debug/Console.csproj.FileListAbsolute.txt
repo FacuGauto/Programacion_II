@@ -1,0 +1,13 @@
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\bin\Debug\Console.exe.config
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\bin\Debug\Console.exe
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\bin\Debug\Console.pdb
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\bin\Debug\Entidades.dll
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\bin\Debug\Entidades.pdb
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\obj\Debug\Console.csprojAssemblyReference.cache
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\obj\Debug\Console.csproj.CoreCompileInputs.cache
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\obj\Debug\Console.csproj.CopyComplete
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\obj\Debug\Console.exe
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\obj\Debug\Console.pdb
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\bin\Debug\Test.exe
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\bin\Debug\Test.pdb
+D:\ZZZZ\Gauto.Facundo.2C\Gauto.Facundo.2C\Console\bin\Debug\Test.exe.config
