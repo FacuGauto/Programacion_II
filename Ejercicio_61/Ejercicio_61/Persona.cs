@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_61
 {
-    class Persona
+    public class Persona
     {
         private int id;
         private string nombre;
