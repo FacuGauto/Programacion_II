@@ -14,6 +14,7 @@ namespace Ejercicio63_threads
 {
     public partial class Form1 : Form
     {
+        Thread t;
         public Form1()
         {
             InitializeComponent();
@@ -21,19 +22,31 @@ namespace Ejercicio63_threads
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int a = 1;
-            while(a < 100)
-            {
-                AsignarHora();
-                System.Threading.Thread.Sleep(5000);
-                a++;
-            }   
+            t = new Thread(AsignarHora);
+            t.Start();
         }
 
         private void AsignarHora()
         {
-            lblHora.Text = DateTime.Now.ToString();
+            while (true)
+            {
+                if (this.lblHora.InvokeRequired)
+                {
+                    this.lblHora.BeginInvoke((MethodInvoker)delegate ()
+                    {
+                        this.lblHora.Text = DateTime.Now.ToString();
+                    }
+                    );
+                }
+                else
+                { this.lblHora.Text = DateTime.Now.ToString(); }
+                Thread.Sleep(1000);
+            }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.t.Abort();
+        }
     }
 }
