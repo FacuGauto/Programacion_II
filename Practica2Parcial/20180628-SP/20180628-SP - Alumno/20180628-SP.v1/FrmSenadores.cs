@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 using Entidades;
 
@@ -109,7 +110,8 @@ namespace _20180628_SP.v1
             // EVENTO
             votacion.EventoVotoEfectuado += ManejadorVoto;
             // THREAD
-
+            Thread t = new Thread(votacion.Simular());
+            t.Start();
         }
 
         private void FrmSenadores_Load(object sender, EventArgs e)
