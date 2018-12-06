@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Central_Telefonica
+namespace CentralitaHerencia
 {
     public abstract class Llamada
     {
@@ -63,9 +63,9 @@ namespace Central_Telefonica
         protected virtual string Mostrar()
         {
             StringBuilder mystringBuilder = new StringBuilder();
-            mystringBuilder.AppendFormat("La duracion es: {0}. ", this.Duracion);
-            mystringBuilder.AppendFormat("El numero de destino es: {0}. ", this.NroDestino);
-            mystringBuilder.AppendFormat("El numero de origen es: {0}. ", this.NroOrigen);
+            mystringBuilder.AppendFormat("\tLa duracion es: {0}.\n", this.Duracion);
+            mystringBuilder.AppendFormat("\tEl numero de destino es: {0}.\n", this.NroDestino);
+            mystringBuilder.AppendFormat("\tEl numero de origen es: {0}.\n", this.NroOrigen);
 
             return mystringBuilder.ToString();
         }
@@ -73,7 +73,7 @@ namespace Central_Telefonica
 
         public static bool operator ==(Llamada l1,Llamada l2)
         {
-            if(l1.Equals(l2) && (l1.NroDestino == l2.NroDestino) && (l1.Duracion == l2.Duracion))
+            if((l1.Equals(l2)) && (l1.NroDestino == l2.NroDestino) && (l1.Duracion == l2.Duracion))
             return true;
 
             return false;

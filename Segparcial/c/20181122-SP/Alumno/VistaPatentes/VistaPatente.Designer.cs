@@ -64,7 +64,6 @@
             this.lblPatenteNro.TabIndex = 1;
             this.lblPatenteNro.Text = "VACIO";
             this.lblPatenteNro.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblPatenteNro.Click += new System.EventHandler(this.lblPatenteNro_Click);
             // 
             // VistaPatente
             // 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Central_Telefonica
+namespace CentralitaHerencia
 {
     public class Provincial : Llamada
     {
@@ -29,11 +29,9 @@ namespace Central_Telefonica
         protected override string Mostrar()
         {
             StringBuilder myStringBuilder = new StringBuilder();
-            myStringBuilder.AppendFormat("{0}", base.Mostrar());
-            myStringBuilder.AppendLine("");
-            myStringBuilder.AppendFormat("El costo de la llamada es:{0} .", this.CostoLLamada);
-            myStringBuilder.AppendLine("");
-            myStringBuilder.AppendFormat("La franja horaria es:{0} .", this.franjaHoraria);
+            myStringBuilder.AppendFormat("Llamada Provincial: \n{0}", base.Mostrar());
+            myStringBuilder.AppendFormat("\tEl costo de la llamada es:{0}.\n", this.CostoLLamada);
+            myStringBuilder.AppendFormat("\tLa franja horaria es:{0}.", this.franjaHoraria);
 
             return myStringBuilder.ToString();
         }

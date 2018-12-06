@@ -1,5 +1,5 @@
 ﻿using System;
-using Central_Telefonica;
+using CentralitaHerencia;
 
 namespace Test
 {
@@ -7,6 +7,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            /*
             // Mi central
             Centralita c = new Centralita("Fede Center");
             // Mis 4 llamadas
@@ -22,7 +23,7 @@ namespace Test
             c += l4;            
             c.ordenarLlamada();
             Console.WriteLine(c.Mostrar());
-            Console.ReadKey();
+            Console.ReadKey();*/
         }
     }
 }

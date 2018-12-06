@@ -17,7 +17,8 @@ namespace Patentes
     public delegate void MostrarPatente(object patente);
 
     public partial class VistaPatente : UserControl
-    {        
+    {
+        public event FinExposicionPatente finExposicion;
         public VistaPatente()
         {
             InitializeComponent();
@@ -35,11 +36,12 @@ namespace Patentes
 
                     // Llamar al hilo principal
                     // ALUMNO
-
+                    Patentes.MostrarPatente d = new Patentes.MostrarPatente(MostrarPatente);
                     Thread.Sleep(r.Next(2000, 5000));
 
                     // Agregar evento de que finalizó la exposición de la patente
                     // ALUMNO
+                    this.finExposicion.Invoke(this);
                 }
                 catch (Exception) { }
             }
@@ -49,10 +51,6 @@ namespace Patentes
                 lblPatenteNro.Text = patente.ToString();
             }
         }
-
-        private void lblPatenteNro_Click(object sender, EventArgs e)
-        {
-
-        }
+               
     }
 }

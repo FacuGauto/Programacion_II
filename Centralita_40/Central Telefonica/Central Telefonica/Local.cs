@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Central_Telefonica
+namespace CentralitaHerencia
 {
     public class Local: Llamada
     {
@@ -29,10 +29,8 @@ namespace Central_Telefonica
         protected override string Mostrar()
         {
             StringBuilder mystringBuilder = new StringBuilder();
-            mystringBuilder.AppendFormat("{0}", base.Mostrar());
-            mystringBuilder.AppendLine("");
-            mystringBuilder.AppendFormat("El costo de la llamada es: {0}. ", this.CostoLLamada);
-            mystringBuilder.AppendLine("");
+            mystringBuilder.AppendFormat("LLamada Local: \n{0}", base.Mostrar());
+            mystringBuilder.AppendFormat("\tEl costo de la llamada es: {0}. ", this.CostoLLamada);
 
             return mystringBuilder.ToString();
         }

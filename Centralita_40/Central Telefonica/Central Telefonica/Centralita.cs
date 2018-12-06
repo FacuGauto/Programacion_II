@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Central_Telefonica
+namespace CentralitaHerencia
 {
     public class Centralita
     {
@@ -68,7 +68,7 @@ namespace Central_Telefonica
         public string Mostrar()
         {
             StringBuilder mystringBuilder = new StringBuilder();
-            mystringBuilder.AppendFormat("Razon Social:{0}, Ganacia Local:{1}, Ganacia Provincial:{2}, Ganancia Total: {3}", this.razonSocial,this.GananciasPorLocal,this.GanaciasPorProvincial,this.GanaciasPorTotal);
+            mystringBuilder.AppendFormat("\nRazon Social: {0}.\nGanacia Local: {1}, Ganacia Provincial: {2}.\nGanancia Total: {3}\n\n", this.razonSocial,this.GananciasPorLocal,this.GanaciasPorProvincial,this.GanaciasPorTotal);
             foreach (Llamada llamada in listaDeLlamadas)
             {
                 if (llamada is Local)
@@ -76,13 +76,13 @@ namespace Central_Telefonica
                     Local aux = (Local)llamada;
                     mystringBuilder.AppendLine(aux.ToString());
                 }
-                if (llamada is Provincial)
+                else if (llamada is Provincial)
                 {
                     Provincial aux = (Provincial)llamada;
                     mystringBuilder.AppendLine(aux.ToString());
                 }
+                mystringBuilder.AppendLine("");
             }
-            mystringBuilder.AppendLine("");
             return mystringBuilder.ToString();
         }
 
@@ -117,7 +117,7 @@ namespace Central_Telefonica
         }
         public static Centralita operator +(Centralita c,Llamada nuevaLlamada)
         {
-            if (c == nuevaLlamada)
+            if (!(c == nuevaLlamada))
                 c.AgregarLlamada(nuevaLlamada);
 
             return c;
